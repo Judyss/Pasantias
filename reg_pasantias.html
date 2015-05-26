@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Judy">
+    <link rel="shortcut icon" href="">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Registro Pasantias</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  </head>
+
+  <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">toggly Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">EMI</a>
+          </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Galeria</a></li>
+                </ul>    
+            </div> <!-- nav-collapse-->
+        </div>
+      </div>
+    </div>
+       
+        <div align="center"><h1 class="pacifico grande azul">Registro de Convenios y Pasantias</h1></div>
+    
+    <!-- Empieza Registro-->
+
+  <div class="container">
+    <form action="" class="form-horizontal lato mediano">
+
+      <!-- Campo Institucion-->
+      <div class="form-group">
+        <label for="Institución" class="control-label col-md-2">Institución:</label>
+          <div class="col-md-10">
+            <input class="form-control" id="Institución" type="text" placeholder="Nombre Institución">
+          </div>
+      </div>
+
+      <!-- Campo Direccion Institucion-->
+      <div class="form-group">
+        <label for="Dirección" class="control-label col-md-2">Dirección:</label>
+          <div class="col-md-10">
+            <input class="form-control" id="Dirección" type="text" placeholder="Dirección Institución">
+          </div>
+      </div>
+
+      <!-- Campo Objeto y Alcance-->
+      <div class="form-group">
+        <label for="objeto" class="control-label col-md-2">Objeto y Alcance Convenio:</label>
+          <div class="col-md-10">  
+            <textarea class="form-control" id="objeto" placeholder="Descripción"></textarea> 
+          </div>
+      </div>
+
+      <!-- Campo Pais-->
+      <div class="form-group">
+        <label for="pais" class="control-label col-md-2">Pais:</label>
+          <div class="checkbox col-md-2 col-md-offset-1">
+              <label>
+                <input type="checkbox">Bolivia
+              </label>
+          </div>
+          <div class="checkbox col-md-2 col-md-offset-1">
+              <label>
+                <input type="checkbox">Otro
+          </div>
+      </div>
+
+      <!-- Campo Agregar Archivo-->
+      <div class="form-group">
+        <label for="archivo" class="control-label col-md-2">Archivo:</label>
+          <div class="col-md-10">
+            <input type="file" id="archivo">
+            <p class="help-block">Maximo 50MB</p>
+          </div>
+      </div>
+
+      <!-- Campo Observaciones-->
+        <div class="checkbox">
+            <div class="checkbox col-md-1 col-md-offset-2">
+              <label> 
+                <input type="checkbox" name="" id=""> Original
+              </label>
+            </div>
+            <div class="checkbox col-md-1 col-md-offset-2">
+              <label>
+                <input type="checkbox" name="" id=""> Fotocopia
+              </label>
+            </div>
+        </div>
+
+      <!-- Boton Guardar-->
+      <div class="form-group">
+         <div class="col-md-2 col-md-offset-2">
+              <button class="btn btn-primary">Guardar</button>
+         </div>
+      </div>
+    <!-- Fin Formulario-->
+    </form>
+  </div>
+
+       
+  </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+

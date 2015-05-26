@@ -1,0 +1,44 @@
+body{
+	
+	font-family: font-family: 'Lato', sans-serif;
+	
+	padding-top: 50px;
+}
+form{
+	padding-top: 50px;
+}
+label{
+	color: #FE752D;
+}
+.started-template{
+	padding: 40px 15px;
+	text-align: center;
+}
+.pacifico{
+	font-family: 'pacifico'; 
+}
+.lato{
+	font-family: 'Merriweather', serif;
+}
+
+input [type="email"]:focus:invalid{
+	border: 1px solid red;
+	box-shadow: 0 0 5px red;
+}
+
+.form-group{
+	width: 50%;
+}
+
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.grande{
+	font-size: 3em;
+}
+.azul{
+	color:#00445E
+}
+.mediano{
+	font-size: 1.1em;
+}
